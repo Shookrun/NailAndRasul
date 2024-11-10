@@ -1,0 +1,451 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100px;
+  /* border: black 1px solid; */
+}
+.layer1 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  /* border: black 1px solid; */
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.orange {
+  color: orange;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Login {
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: transparent;
+}
+.right {
+  position: absolute;
+  top: 12opx;
+}
+.left {
+  position: absolute;
+  top: 120px;
+  left: 130px;
+  width: 30%;
+  /* border: black 1px solid; */
+}
+.word {
+  font-size: 15px;
+}
+.Rest {
+  background-color: #faae16e1;
+  color: aliceblue;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.italic {
+  font-family: italic;
+  font-size: 80px;
+}
+
+.bom1 {
+  background-color: #ff8a00;
+  color: white;
+  width: 140px;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: transparent;
+}
+
+.bom2 {
+  background-color: #3fa72f;
+  color: white;
+  width: 140px;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: transparent;
+}
+.leftup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.leftdown {
+  display: flex;
+  gap: 30px;
+}
+
+.l1left {
+  width: 50%;
+  height: 600px;
+  /* border: black 1px solid; */
+}
+.l1right {
+  width: 50%;
+  height: 600px;
+  /* border: black 1px solid; */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.layer2 {
+  width: 100%;
+  height: 700px;
+  /* border: black 1px solid; */
+  position: relative;
+  background-color: #c4c4c4;
+}
+.l2left {
+  width: 50%;
+  height: 700px;
+  /* border: black 1px solid; */
+}
+.l2right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+  height: 700px;
+  /* border: black 1px solid; */
+}
+.l2food {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.l2mainfood {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  z-index: 1;
+}
+.l2main {
+  font-size: 70px;
+}
+.l2side {
+  font-size: 70px;
+}
+.lorem {
+  font-size: 20px;
+}
+.l2container {
+  /* border: black 1px solid; */
+  width: 50%;
+  padding: 10px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.menu {
+  background-color: orange;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 30px;
+  color: white;
+  border: transparent;
+}
+.layer3 {
+  width: 100%;
+  height: 2500px;
+  /* border: black 1px solid; */
+  position: relative;
+}
+.popularmenu {
+  font-size: 60px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+.brown {
+  color: brown;
+}
+.brownish {
+  background-color: brown !important;
+  color: aliceblue !important;
+}
+.top {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  /* border: black 1px solid; */
+}
+.tags {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  p {
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    /* border: black 1px solid; */
+  }
+}
+.troop p {
+  text-align: center;
+}
+.troop {
+  width: 400px;
+  height: 600px;
+  /* border: black 1px solid; */
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.troop img {
+  padding: 10px 20px 10px 40px;
+}
+.troop h2 {
+  text-align: center;
+}
+.tablesphagetti {
+  width: 400px;
+  height: 350px;
+}
+
+.Rating {
+  margin-left: 12%;
+}
+.troop h3 {
+  font-size: 25px;
+  color: #3fa72f;
+}
+.troop button {
+  background-color: #ff8a00;
+  border-radius: 30px;
+  color: aliceblue;
+  width: 150px;
+  padding: 10px;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.food {
+  width: 80%;
+  height: 2000px;
+  /* border: black 1px solid; */
+  position: relative;
+  left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 60px;
+}
+.l3down {
+  height: 500px;
+  width: 100%;
+}
+.layer4 {
+  background-color: #fff4e7;
+  width: 100%;
+  height: 800px;
+  /* border: black 1px solid; */
+  position: relative;
+}
+.l4left {
+  width: 50%;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  /* border: black 1px solid; */
+}
+.l4right {
+  width: 50%;
+  height: 800px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /* border: black 1px solid; */
+}
+.images {
+  position: relative;
+}
+.l4sideimg {
+  position: absolute;
+  left: 20px;
+  top: 600px;
+}
+.l4mainimg {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+}
+.l4side2img {
+  position: absolute;
+  left: 550px;
+  top: 0px;
+}
+.Reserve {
+  font-size: 90px;
+}
+.table {
+  font-size: 90px;
+}
+.l4word {
+  /* border: black 1px solid; */
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.layer5 {
+  width: 100%;
+  height: 1200px;
+  position: relative;
+  /* border: black 1px solid; */
+}
+.topic {
+  width: 100%;
+  height: 200px;
+}
+.Menu {
+  font-size: 70px;
+  color: #311f09;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Poppins;
+}
+.chefs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+.Card {
+  width: 430px;
+  height: 500px;
+  /* border: black 1px solid; */
+  padding: 5px;
+  text-align: center;
+  font-family: Poppins;
+}
+.name {
+  font-size: 30px;
+}
+.surename {
+  font-size: 30px;
+  color: #a08d76;
+}
+.layer5 button {
+  background-color: orange;
+  color: white;
+  width: 160px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 22px;
+  position: absolute;
+  border: transparent;
+  bottom: 150px;
+  font-family: Poppins;
+  left: 700px;
+}
+.layer6 {
+  background-color: #d0ccc7;
+  /* border: black 1px solid; */
+  width: 100%;
+  height: 1300px;
+  position: relative;
+}
+.mainword {
+  p {
+    color: #311f09;
+    font-family: Poppins;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 70px;
+  }
+}
+.customer {
+  /* border: black 1px solid; */
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0px;
+}
+.l6comment {
+  font-size: 22px;
+  color: #5c4529;
+  text-align: center;
+  margin-top: 30px;
+  position: absolute;
+  left: 460px;
+  top: 480px;
+}
+.commentor {
+  position: absolute;
+  top: 180px;
+  left: 620px;
+}
+.l6down {
+  position: absolute;
+  top: 700px;
+  width: 100%;
+  height: 500px;
+  /* border: black 1px solid; */
+  display: flex;
+  justify-content: center;
+}
